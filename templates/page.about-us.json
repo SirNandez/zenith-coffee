@@ -1,0 +1,203 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "a64dcf69-e713-476b-b1f7-301eb657adda": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--19287250403624__a64dcf69-e713-476b-b1f7-301eb657adda-1685927770cc4c36ab-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Founder emma",
+            "heading_size": "h1"
+          }
+        },
+        "template--19287250403624__a64dcf69-e713-476b-b1f7-301eb657adda-1685927770cc4c36ab-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--19287250403624__a64dcf69-e713-476b-b1f7-301eb657adda-1685927770cc4c36ab-0",
+        "template--19287250403624__a64dcf69-e713-476b-b1f7-301eb657adda-1685927770cc4c36ab-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/about_1.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "15b37880-5799-46df-a00e-49bb66bef48b": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--19287250403624__15b37880-5799-46df-a00e-49bb66bef48b-1685927770cc4c36ab-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Family tradition",
+            "heading_size": "h1"
+          }
+        },
+        "template--19287250403624__15b37880-5799-46df-a00e-49bb66bef48b-1685927770cc4c36ab-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--19287250403624__15b37880-5799-46df-a00e-49bb66bef48b-1685927770cc4c36ab-0",
+        "template--19287250403624__15b37880-5799-46df-a00e-49bb66bef48b-1685927770cc4c36ab-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/about_2.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "ae0be11d-0b30-4acd-a07c-f3c14d11298c": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--19287250403624__ae0be11d-0b30-4acd-a07c-f3c14d11298c-1685927770cc4c36ab-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "10 years brewing",
+            "heading_size": "h1"
+          }
+        },
+        "template--19287250403624__ae0be11d-0b30-4acd-a07c-f3c14d11298c-1685927770cc4c36ab-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--19287250403624__ae0be11d-0b30-4acd-a07c-f3c14d11298c-1685927770cc4c36ab-0",
+        "template--19287250403624__ae0be11d-0b30-4acd-a07c-f3c14d11298c-1685927770cc4c36ab-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/about_3.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "047c70f5-bcb9-4594-8267-b0d7bf7abca3": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--19287250403624__047c70f5-bcb9-4594-8267-b0d7bf7abca3-1685927770cc4c36ab-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Exellence",
+            "heading_size": "h1"
+          }
+        },
+        "template--19287250403624__047c70f5-bcb9-4594-8267-b0d7bf7abca3-1685927770cc4c36ab-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--19287250403624__047c70f5-bcb9-4594-8267-b0d7bf7abca3-1685927770cc4c36ab-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Try it for yourself",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19287250403624__047c70f5-bcb9-4594-8267-b0d7bf7abca3-1685927770cc4c36ab-0",
+        "template--19287250403624__047c70f5-bcb9-4594-8267-b0d7bf7abca3-1685927770cc4c36ab-1",
+        "template--19287250403624__047c70f5-bcb9-4594-8267-b0d7bf7abca3-1685927770cc4c36ab-2"
+      ],
+      "custom_css": [],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/about_4.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "0df45a0e-ab26-458f-a13c-ee347ca50f98": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured collection",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "coffee",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "a64dcf69-e713-476b-b1f7-301eb657adda",
+    "15b37880-5799-46df-a00e-49bb66bef48b",
+    "ae0be11d-0b30-4acd-a07c-f3c14d11298c",
+    "047c70f5-bcb9-4594-8267-b0d7bf7abca3",
+    "0df45a0e-ab26-458f-a13c-ee347ca50f98"
+  ]
+}
