@@ -143,6 +143,61 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "dec1f778-d944-4c73-990b-4312200fcb92": {
+      "type": "testimonials",
+      "blocks": {
+        "template--19287621206312__dec1f778-d944-4c73-990b-4312200fcb92-16862577195837e497-0": {
+          "type": "text",
+          "settings": {
+            "slider-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun",
+            "image": "shopify:\/\/shop_images\/user_1.jpg",
+            "slider-author": "Kyle"
+          }
+        },
+        "template--19287621206312__dec1f778-d944-4c73-990b-4312200fcb92-16862577195837e497-1": {
+          "type": "text",
+          "settings": {
+            "slider-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun",
+            "image": "shopify:\/\/shop_images\/user_2.jpg",
+            "slider-author": "Maddie"
+          }
+        },
+        "template--19287621206312__dec1f778-d944-4c73-990b-4312200fcb92-16862577195837e497-2": {
+          "type": "text",
+          "settings": {
+            "slider-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun",
+            "image": "shopify:\/\/shop_images\/user_3.jpg",
+            "slider-author": "Mike"
+          }
+        },
+        "cca3ed81-c676-429a-aa07-59fb24dd9c40": {
+          "type": "text",
+          "settings": {
+            "slider-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun",
+            "image": "shopify:\/\/shop_images\/user_4.jpg",
+            "slider-author": "Paul"
+          }
+        },
+        "0efcad00-9ce9-4c84-b130-be119e6ac2b3": {
+          "type": "text",
+          "settings": {
+            "slider-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun",
+            "image": "shopify:\/\/shop_images\/user_5.jpg",
+            "slider-author": "Kathy"
+          }
+        }
+      },
+      "block_order": [
+        "template--19287621206312__dec1f778-d944-4c73-990b-4312200fcb92-16862577195837e497-0",
+        "template--19287621206312__dec1f778-d944-4c73-990b-4312200fcb92-16862577195837e497-1",
+        "template--19287621206312__dec1f778-d944-4c73-990b-4312200fcb92-16862577195837e497-2",
+        "cca3ed81-c676-429a-aa07-59fb24dd9c40",
+        "0efcad00-9ce9-4c84-b130-be119e6ac2b3"
+      ],
+      "settings": {
+        "header": "Testimonials🗣️"
+      }
     }
   },
   "order": [
@@ -150,6 +205,7 @@
     "featured_collection",
     "ae79d58c-c4df-42e9-982b-9a1b49dd66bd",
     "66c3757a-ccd5-4fe9-9e52-6923e3148ade",
-    "d1f69a4b-0f85-424c-b362-1d64ca476e74"
+    "d1f69a4b-0f85-424c-b362-1d64ca476e74",
+    "dec1f778-d944-4c73-990b-4312200fcb92"
   ]
 }

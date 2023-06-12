@@ -1599,3 +1599,19 @@ a.product__text {
     border: none;
   }
 }
+.coffee-table {
+ width: 100%;
+ overflow: hidden;
+
+text-align: left;
+}
+table, tr, td, th {
+  border:1px solid rgb(166, 165, 165);
+  border-spacing: 0px;
+}
+td, th{
+  padding:12px 12px;
+}
+.coffee-bean {
+  display:flex;
+}

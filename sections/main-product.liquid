@@ -178,6 +178,115 @@
               </p>
             {%- when 'custom_liquid' -%}
               {{ block.settings.custom_liquid }}
+
+              {% when 'coffee_info' %}
+                <div class="product__accordion accordion quick-add-hidden" {{ block.shopify_attributes }}>
+                  <details id="Details-{{ block.id }}-{{ section.id }}">
+                    <summary>
+                      <div class="summary__title">
+                        {% render 'icon-accordion', icon: 'leaf' %}
+                        <h2 class="h4 accordion__title inline-richtext">
+                          Coffee Info
+                        </h2>
+                      </div>
+                      {% render 'icon-caret' %}
+                    </summary>
+                    <div class="accordion__content rte" id="ProductAccordion-{{ block.id }}-{{ section.id }}">
+                      <table class="coffee-table" >
+                        <tr>
+                          <th>Taste</th>
+                          <td>{{ block.settings.taste }}</td>
+                        </tr>
+                        <tr>
+                          <th>Strength</th>
+                          <td> 
+                          <div class="coffee-bean">
+                            {% if block.settings.strength == "1" %}
+                          {% render 'icon-coffee-bean', icon: 'filled' %}
+                          {% render 'icon-coffee-bean', icon: 'empty' %}
+                          {% render 'icon-coffee-bean', icon: 'empty' %}
+                          {% render 'icon-coffee-bean', icon: 'empty' %}
+                          {% render 'icon-coffee-bean', icon: 'empty' %}
+                          {% elsif block.settings.strength == '2' %}
+                          {% render 'icon-coffee-bean', icon: 'filled' %}
+                          {% render 'icon-coffee-bean', icon: 'filled' %}
+                          {% render 'icon-coffee-bean', icon: 'empty' %}
+                          {% render 'icon-coffee-bean', icon: 'empty' %}
+                          {% render 'icon-coffee-bean', icon: 'empty' %}
+                          {% elsif block.settings.strength == '3' %}
+                          {% render 'icon-coffee-bean', icon: 'filled' %}
+                          {% render 'icon-coffee-bean', icon: 'filled' %}
+                          {% render 'icon-coffee-bean', icon: 'filled' %}
+                          {% render 'icon-coffee-bean', icon: 'empty' %}
+                          {% render 'icon-coffee-bean', icon: 'empty' %}  
+                          {% elsif block.settings.strength == '4' %}
+                          {% render 'icon-coffee-bean', icon: 'filled' %}
+                          {% render 'icon-coffee-bean', icon: 'filled' %}
+                          {% render 'icon-coffee-bean', icon: 'filled' %}
+                          {% render 'icon-coffee-bean', icon: 'filled' %}
+                          {% render 'icon-coffee-bean', icon: 'empty' %}
+                          {% elsif block.settings.strength == '5' %}
+                          {% render 'icon-coffee-bean', icon: 'filled' %}
+                          {% render 'icon-coffee-bean', icon: 'filled' %}
+                          {% render 'icon-coffee-bean', icon: 'filled' %}
+                          {% render 'icon-coffee-bean', icon: 'filled' %}
+                          {% render 'icon-coffee-bean', icon: 'filled' %}
+                            {% endif %}
+                        </div>
+                        </td>
+                        </tr>
+                        <tr>
+                          <th>Bitterness</th>
+                          <td>
+                            <div class="coffee-bean">
+                              {% if block.settings.bitterness == "1" %}
+                                {% render 'icon-coffee-bean', icon: 'filled' %}
+                                {% render 'icon-coffee-bean', icon: 'empty' %}
+                                {% render 'icon-coffee-bean', icon: 'empty' %}
+                                {% render 'icon-coffee-bean', icon: 'empty' %}
+                                {% render 'icon-coffee-bean', icon: 'empty' %}
+                                {% elsif block.settings.bitterness == '2' %}
+                                {% render 'icon-coffee-bean', icon: 'filled' %}
+                                {% render 'icon-coffee-bean', icon: 'filled' %}
+                                {% render 'icon-coffee-bean', icon: 'empty' %}
+                                {% render 'icon-coffee-bean', icon: 'empty' %}
+                                {% render 'icon-coffee-bean', icon: 'empty' %}
+                                {% elsif block.settings.bitterness == '3' %}
+                                {% render 'icon-coffee-bean', icon: 'filled' %}
+                                {% render 'icon-coffee-bean', icon: 'filled' %}
+                                {% render 'icon-coffee-bean', icon: 'filled' %}
+                                {% render 'icon-coffee-bean', icon: 'empty' %}
+                                {% render 'icon-coffee-bean', icon: 'empty' %}  
+                                {% elsif block.settings.bitterness == '4' %}
+                                {% render 'icon-coffee-bean', icon: 'filled' %}
+                                {% render 'icon-coffee-bean', icon: 'filled' %}
+                                {% render 'icon-coffee-bean', icon: 'filled' %}
+                                {% render 'icon-coffee-bean', icon: 'filled' %}
+                                {% render 'icon-coffee-bean', icon: 'empty' %}
+                                {% elsif block.settings.bitterness == '5' %}
+                                {% render 'icon-coffee-bean', icon: 'filled' %}
+                                {% render 'icon-coffee-bean', icon: 'filled' %}
+                                {% render 'icon-coffee-bean', icon: 'filled' %}
+                                {% render 'icon-coffee-bean', icon: 'filled' %}
+                                {% render 'icon-coffee-bean', icon: 'filled' %}
+                                  {% endif %}
+                            </div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <th>Type</th>
+                          <td>{{ block.settings.type }}</td>
+                        </tr>  
+                        <tr>
+                          <th>Origin</th>
+                          <td>{{ block.settings.origin }}</td>
+                        </tr>
+                      </table>
+                    </div>
+                  </details>
+                </div>
+
+
             {%- when 'collapsible_tab' -%}
               <div class="product__accordion accordion quick-add-hidden" {{ block.shopify_attributes }}>
                 <details id="Details-{{ block.id }}-{{ section.id }}">
@@ -775,6 +884,37 @@
           "label": "t:sections.main-product.blocks.custom_liquid.settings.custom_liquid.label",
           "info": "t:sections.main-product.blocks.custom_liquid.settings.custom_liquid.info"
         }
+      ]
+    },
+    {
+      "type": "coffee_info",
+      "name": "Coffee info",
+      "settings": [
+        {
+        "type":"text",
+        "id":"taste",
+        "label":"coffee taste"
+        },
+        {
+        "type":"text",
+        "id":"strength",
+        "label": "coffee strength (1-5)"
+        },
+        {
+          "type":"text",
+          "id":"bitterness",
+          "label": "Coffee Bitterness (1-5)"
+          },
+          {
+            "type":"text",
+            "id":"type",
+            "label":"coffee type"
+          },
+          {
+            "type":"text",
+            "id":"origin",
+            "label":"coffee orgin"
+            }
       ]
     },
     {
